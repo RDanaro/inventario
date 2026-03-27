@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: catalogo-app
+spec:
+  targets:
+    - ./groups.yaml
+    - ./system-canales-digitales.yaml
+    - ./system-capa-integracion.yaml
+    - ./system-core-onpremise.yaml
+    - ./canal-web.yaml
+    - ./api-clientes-aws.yaml
+    - ./osb-clientes-11g.yaml
+    - ./bd-clientes.yaml
+    - ./clientes-api.yaml
