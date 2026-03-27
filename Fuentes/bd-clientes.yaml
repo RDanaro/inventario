@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: bd-clientes
+  description: Base de datos Oracle de clientes
+  tags:
+    - oracle
+    - database
+    - customer-data
+spec:
+  type: database
+  owner: group:default/dba-team
+  system: core-onpremise

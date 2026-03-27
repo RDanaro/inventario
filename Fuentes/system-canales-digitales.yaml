@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: canales-digitales
+  description: Dominio que agrupa los canales digitales de atención
+spec:
+  owner: group:default/team-canales

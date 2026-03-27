@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: capa-integracion
+  description: Capa de integración para exponer y orquestar servicios
+spec:
+  owner: group:default/team-integracion

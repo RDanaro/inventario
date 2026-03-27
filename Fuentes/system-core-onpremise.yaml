@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: core-onpremise
+  description: Servicios core y activos on premise
+spec:
+  owner: group:default/team-middle

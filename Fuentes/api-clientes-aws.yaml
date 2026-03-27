@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-clientes-aws
+  description: API de clientes desplegada en AWS
+  tags:
+    - api
+    - aws
+    - integration-layer
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/team-integracion
+  system: capa-integracion
+  dependsOn:
+    - component:default/osb-clientes-11g
+  providesApis:
+    - clientes-api

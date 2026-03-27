@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: clientes-api
+  description: API REST para consulta de clientes
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:default/team-integracion
+  system: capa-integracion
+  definition: |
+    openapi: 3.0.3
+    info:
+      title: Clientes API
+      version: 1.0.0
+    paths:
+      /clientes/{id}:
+        get:
+          summary: Obtiene cliente por id
+          parameters:
+            - in: path
+              name: id
+              required: true
+              schema:
+                type: string
+          responses:
+            '200':
+              description: OK

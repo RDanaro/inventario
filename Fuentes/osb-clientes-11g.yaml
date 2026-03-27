@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: osb-clientes-11g
+  description: Servicio OSB 11g on-premise para consulta de clientes
+  tags:
+    - osb
+    - oracle
+    - onpremise-layer
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/team-middle
+  system: core-onpremise
+  dependsOn:
+    - resource:default/bd-clientes

@@ -1,0 +1,42 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-canales
+spec:
+  type: team
+  profile:
+    displayName: Team Canales
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-integracion
+spec:
+  type: team
+  profile:
+    displayName: Team Integracion
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-middle
+spec:
+  type: team
+  profile:
+    displayName: Team Middle
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dba-team
+spec:
+  type: team
+  profile:
+    displayName: DBA Team
+  children: []
